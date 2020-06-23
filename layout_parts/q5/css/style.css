@@ -1,5 +1,122 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.q5__content{
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  background-color: #ecf1f2;
+  position: relative;
+}
+
+.numberbox__1{
+  position: absolute;
+  top: 40px;
+  left: 200px;
+  width: 100px;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 100px;
+  text-align: center;
+  z-index: 1;
+  background-color: #ffefd3;
+}
+
+.numberbox__2{
+  position: absolute;
+  top: 120px;
+  left: 280px;
+  width: 100px;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 100px;
+  text-align: center;
+  z-index: 2;
+  background-color: #7084de
+}
+.numberbox__3{
+  position: absolute;
+  top: 200px;
+  left: 360px;
+  width: 100px;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 100px;
+  text-align: center;
+  z-index: 3;
+  background-color: #d0ecea
+}
+.numberbox__4{
+  position: absolute;
+  top: 280px;
+  left: 280px;
+  width: 100px;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 100px;
+  text-align: center;
+  z-index: 4;
+  background-color: #8b7a5e
+}
+.numberbox__5{
+  position: absolute;
+  top: 360px;
+  left: 200px;
+  width: 100px;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 100px;
+  text-align: center;
+  z-index: 5;
+  background-color: #9fd6d2
+}
+.numberbox__6{
+  position: absolute;
+  top: 280px;
+  left: 120px;
+  width: 100px;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 100px;
+  text-align: center;
+  z-index: 6;
+  background-color: #fffee4
+}
+.numberbox__7{
+  position: absolute;
+  top: 200px;
+  left: 40px;
+  width: 100px;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 100px;
+  text-align: center;
+  z-index: 7;
+  background-color: #deae70
+}
+.numberbox__8{
+  position: absolute;
+  top: 120px;
+  left: 120px;
+  width: 100px;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 100px;
+  text-align: center;
+  z-index: 8;
+  background-color: #de70cf
+}
+.numberbox__9{
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  margin: 10px;
+  width: 100px;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 100px;
+  text-align: center;
+  background-color:#2b69a3
+}
 
 /* 回答はここに書いてね */
