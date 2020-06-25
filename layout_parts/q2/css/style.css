@@ -27,4 +27,7 @@
   font-size: 18px;
   line-height: 22px;
 }
+.q2__content__text{
+  word-break: break-all;
+}
 /* 回答はここに書いてね */
