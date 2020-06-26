@@ -4,48 +4,58 @@
 .q6__box .q6__box__left {
   text-align: center;
 }
+
 .q6__box .text-align {
   display: inline-block;
 }
+
 .text-align {
   padding: 10px 0;
   width: 90px;
   background-color: #e6f2ff;
   text-align: center;
 }
-.margin{
+
+.margin {
   width: 90px;
   padding: 10px 0;
   margin: 0 auto;
   text-align: center;
   background-color: #e6f2ff;
 }
+
 .q6--around.is-table {
   display: table;
 }
+
 .q6--around.is-table .q6__box {
   display: table-cell;
   background-color: #ECF1F2;
   text-align: center;
   vertical-align: middle;
 }
+
 .q6--around.is-table .q6__box__text {
   display: inline-block;
   padding: 10px;
   background-color: #FFF;
 }
+
 .q6--around.is-flex {
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .q6--around.is-flex .q6__box__text {
   padding: 10px;
   background-color: #FFF;
 }
+
 .q6--position .q6__box {
   position: relative;
 }
+
 .q6__box.is-stable .q6__box__inner {
   position: absolute;
   top: 0;
@@ -54,6 +64,7 @@
   left: 0;
   margin: auto;
 }
+
 .q6__box.is-flexible .q6__box__inner {
   position: absolute;
   top: 50%;

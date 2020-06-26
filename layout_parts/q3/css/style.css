@@ -2,13 +2,13 @@
 
 /* 回答はここに書いてね */
 
-.q3__content{
+.q3-content {
   table-layout: fixed;
   width: 100%;
   border: 1px solid #dedede;
 }
 
-.q3__content th {
+.q3-content th {
   background-color: #24a;
   color: #fff;
   padding: 10px;
@@ -16,17 +16,19 @@
   line-height: 26px;
   border: 1px solid #dedede;
 }
-.q3__content td {
+
+.q3-content td {
   padding: 10px;
   line-height: 22px;
   text-align: center;
   border: 1px solid #dedede;
 }
 
-.q3__content > tbody > tr:nth-child(even) {
+.q3-content tbody tr:nth-child(even) {
   background-color: #ECF1F2;
 }
-.q3__content > tbody > tr:last-child {
+
+.q3-content tbody tr:last-child {
   border-top: 2px dashed #000;
 }
 
