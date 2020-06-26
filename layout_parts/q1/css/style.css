@@ -6,13 +6,16 @@
   content: "";
   clear: both;
 }
+.q1 {
+margin-top: 20px;
+}
+
 .q1__content {
   width: 940px;
   margin: 0 auto;
   padding: 20px;
   background-color: #eff3f4;
   box-sizing: border-box;
-  margin-left: 0px;
 }
 
 .q1__content__box {
