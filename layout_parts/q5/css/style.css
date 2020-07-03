@@ -65,6 +65,16 @@
   background-color: #de70cf;
 }
 
+.is-8::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 20px;
+  height: 20px;
+  background-color: #ffefd3;
+}
+
 .number-box {
   position: absolute;
   width: 100px;
@@ -82,14 +92,5 @@
   background-color:#2b69a3;
 }
 
-.is-8::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 20px;
-  height: 20px;
-  background-color: #ffefd3;
-}
 
 /* 回答はここに書いてね */
