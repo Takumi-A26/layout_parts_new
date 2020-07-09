@@ -29,7 +29,7 @@
 }
 
 .q3-content tbody tr:last-child {
-  border-top: 2px dashed #000;
+  border-bottom: 2px dashed #000;
 }
 
 

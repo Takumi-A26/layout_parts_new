@@ -9,6 +9,15 @@
   position: relative;
 }
 
+.number-box {
+  position: absolute;
+  width: 100px;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 100px;
+  text-align: center;
+}
+
 .is-1 {
   top: 40px;
   left: 200px;
@@ -73,15 +82,6 @@
   width: 20px;
   height: 20px;
   background-color: #ffefd3;
-}
-
-.number-box {
-  position: absolute;
-  width: 100px;
-  font-weight: bold;
-  font-size: 30px;
-  line-height: 100px;
-  text-align: center;
 }
 
 .is-9 {
