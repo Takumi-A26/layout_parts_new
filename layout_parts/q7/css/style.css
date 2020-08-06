@@ -2,4 +2,88 @@
 
 /* 回答はここに書いてね */
 
+.is-first-box {
+  float: left;
+  margin-left: 50px;
+  width: 225px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.is-first-box:first-child {
+  margin-left: 0;
+}
+
+.clearfix::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.is-inner-box {
+  display: table;
+}
+
+.is-table-box {
+  display: table-cell;
+  padding-left: 50px;
+  font-size: 16px;
+  width: 225px;
+  vertical-align: middle;
+}
+.is-table-box:first-child {
+  padding-left: 0;
+}
+
+.is-square {
+  font-size: 0;
+}
+
+.is-inline-box {
+  display: inline-block;
+  margin-left: 50px;
+  width: 225px;
+  font-size: 16px;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+.is-inline-box:first-child  {
+margin-left: 0;
+}
+
+.is-flex {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+.is-flex-box {
+  font-size: 16px;
+  width: 225px;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+
+.is-full {
+width: 100%;
+font-size: 0;
+box-sizing: border-box;
+vertical-align: top;
+}
+
+.is-stable {
+  display: inline-block;
+  width: 300px;
+  font-size: 16px;
+}
+
+.is-flexible {
+  display: inline-block;
+  width: 100%;
+  font-size: 16px;
+  margin-left: -300px;
+  padding-left: 350px;
+  box-sizing: border-box;
+}
+
 /* 回答はここに書いてね */
